@@ -94,10 +94,10 @@ export const JobLocations = [
 
 // Sample data for Manage Jobs Page
 export const manageJobsData = [
-    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Bangalore", applicants: 20 },
-    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "San Francisco", applicants: 15 },
-    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "London", applicants: 2 },
-    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Dubai", applicants: 25 }
+    { _id: 1, title: "Full Stack Developer", date:1744588800000 , location: "Bangalore", applicants: 20 },
+    { _id: 2, title: "Data Scientist", date: 1744588800000, location: "San Francisco", applicants: 15 },
+    { _id: 3, title: "Marketing Manager", date: 1744588800000, location: "London", applicants: 2 },
+    { _id: 4, title: "UI/UX Designer", date: 1744588800000, location: "Dubai", applicants: 25 }
 ];
 
 // Sample data for Profile Page
@@ -106,7 +106,7 @@ export const jobsApplied = [
         company: 'Amazon',
         title: 'Full Stack Developer',
         location: 'Bangalore',
-        date: '22 Aug, 2024',
+        date: '22 Aug, 2026',
         status: 'Pending',
         logo: company_icon,
     },
@@ -114,7 +114,7 @@ export const jobsApplied = [
         company: 'Meta',
         title: 'Data Scientist',
         location: 'San Francisco',
-        date: '22 Aug, 2024',
+        date: '22 Aug, 2026',
         status: 'Rejected',
         logo: company_icon,
     },
@@ -122,7 +122,7 @@ export const jobsApplied = [
         company: 'Google',
         title: 'Marketing Manager',
         location: 'London',
-        date: '25 Sep, 2024',
+        date: '25 Sep, 2026',
         status: 'Accepted',
         logo: company_icon,
     },
@@ -130,7 +130,7 @@ export const jobsApplied = [
         company: 'Qualcomm',
         title: 'UI/UX Designer',
         location: 'Dubai',
-        date: '15 Oct, 2024',
+        date: '15 Oct, 2026',
         status: 'Pending',
         logo: company_icon,
     },
@@ -138,7 +138,7 @@ export const jobsApplied = [
         company: 'Microsoft',
         title: 'Full Stack Developer',
         location: 'Hyderabad',
-        date: '25 Sep, 2024',
+        date: '25 Sep, 2026',
         status: 'Accepted',
         logo: company_icon,
     },
@@ -185,7 +185,7 @@ export const jobsData = [
             <li>Ability to work in an Agile environment.</li>
         </ol>`,
         salary: 82000,
-        date: 1729681667114,
+        date: 1744588800000,
         category: "Programming",
     },
     {
@@ -218,7 +218,7 @@ export const jobsData = [
             <li>Excellent problem-solving and critical-thinking skills.</li>
         </ol>`,
         salary: 72000,
-        date: 1729681667114,
+        date: 1744588800000,
         category: "Data Science",
     },
     {
