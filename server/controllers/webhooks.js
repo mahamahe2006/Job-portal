@@ -10,8 +10,8 @@ export const clerkWbhooks = async (req, res) => {
         //verify headers
         await whook.verify(JSON.stringify(req.body), {
             "svix-id": req.headers["svix-id"],
-            "svix-timestamp": req.body["svix-timestamp"],
-            "svix-signature": req.body["svix-signature"]
+            "svix-timestamp": req.headers["svix-timestamp"],
+            "svix-signature": req.headers["svix-signature"]
         })
 
         //getting data from request body
