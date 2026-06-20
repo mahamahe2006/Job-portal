@@ -1,5 +1,5 @@
 import { Webhook } from "svix";
-import User from "../models/User";
+import User from "../models/User.js";
 
 export const clerkWbhooks = async (req, res) => {
     try {
@@ -57,7 +57,7 @@ export const clerkWbhooks = async (req, res) => {
         }
 
 
-    } catch (err) {
+    } catch (error) {
        console.log(error.message);
        res.json({success:false,message:'Webhooks Error'})
     }
