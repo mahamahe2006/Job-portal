@@ -24,12 +24,6 @@ app.get("/debug-sentry", function mainHandler(req, res) {
 });
 app.post('/webhooks',clerkWbhooks)
 
-//PORT
-const PORT =process.env.PORT ||5000
 Sentry.setupExpressErrorHandler(app);
 
-
-
-app.listen(PORT,()=>{
-    console.log(`Server is running on port ${PORT}`);
-})
+export default app;
