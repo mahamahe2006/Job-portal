@@ -17,6 +17,8 @@ export const clerkWbhooks = async (req, res) => {
     const { data, type } = JSON.parse(payload);
 
     console.log(type);
+    console.log("Webhook reached");
+    console.log("Event type:", type);
 
     switch (type) {
 
